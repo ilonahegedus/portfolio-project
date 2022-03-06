@@ -28,29 +28,126 @@
       src="https://kit.fontawesome.com/166bef05ea.js"
       crossorigin="anonymous"
     ></script>
-
-    <title>Document</title>
+    <meta
+      name="description"
+      content="IHegedus is a front-end engineer based in Hungary. Contact IHegedus."
+    />
+    <title>Contact Me</title>
   </head>
 
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            alt="IHegedus logo"
+            class="logo d-none d-md-block"
+            title="Homepage" />
+          <img
+            src="images/logo-small.jpg"
+            alt="IHegedus logo"
+            class="logo d-block d-md-none"
+        /></a>
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About page">About</a></li>
+          <li><a href="/work.html" title="Work page">Work</a></li>
+          <li class="active">
+            <a href="/contact.html" title="Contact IHegedus">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
         <h3>Email</h3>
         <p>
-          <a href="mailto:ilonahegedus@gmail.com"> ilonahegedus@gmail.com </a>
+          <a href="mailto:ilonahegedus@gmail.com" title="Email IHegedus">
+            ilonahegedus@gmail.com
+          </a>
         </p>
         <h3>Twitter</h3>
         <p>
-          <a href="https://twitter.com/i_hegedus" target="_blank">@i_hegedus</a>
+          <a
+            href="https://twitter.com/i_hegedus"
+            target="_blank"
+            title="Twitter profile"
+            >@i_hegedus</a
+          >
         </p>
         <h3>Instagram</h3>
         <p>
-          <a href="http://www.instagram.com/ihegedus.codes" target="_blank"
+          <a
+            href="http://www.instagram.com/ihegedus.codes"
+            target="_blank"
+            title="Instagram profile"
             >@ihegedus.codes</a
           >
         </p>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="contact IHegedus"
+            >Contact me</a
+          >
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:ilonahegedus@gmail.com"
+          class="email-link"
+          title="email me"
+        >
+          ilonahegedus@gmail.com
+        </a>
+      </div>
+      <div class="social-links d-flex justify-content-center mb-5">
+        <a
+          href="http://www.instagram.com/ihegedus.codes"
+          target="_blank"
+          title="Instagram profile"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://github.com/ilonahegedus"
+          target="_blank"
+          title="Github profile"
+        >
+          <i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://twitter.com/i_hegedus"
+          target="_blank"
+          title="Twitter profile"
+        >
+          <i class="fa-brands fa-twitter"></i
+        ></a>
+      </div>
+
+      <p class="text-center mt-4">
+        This project was coded by IHegedus, and it is
+        <a
+          href="https://github.com/ilonahegedus/portfolio-project"
+          target="_blank"
+          title="Github profile"
+        >
+          open-sourced</a
+        >.
+      </p>
+    </footer>
   </body>
 </html>
